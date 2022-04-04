@@ -1,0 +1,26 @@
+.header{
+    background-color: cadetblue;
+    height: 200px;
+    position: relative;
+    &:hover{
+        background-color: burlywood;
+    }
+    &::before{
+        content: " ";
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: url(/images/courses-document.svg) center center/cover no-repeat;
+        top: 20px;
+    }
+}
+
+
+.sa {
+    fill: blue;
+    stroke: #fff;
+    stroke-width: 2;
+}
+/* .qw{
+    fill: brown;
+} */
